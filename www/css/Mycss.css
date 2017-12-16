@@ -1,0 +1,88 @@
+.ui-btn{
+    border-style: none;
+}
+.logo_font{
+    font-family: 'Oleo Script', cursive;
+    
+}
+.ui-navbar li .ui-btn {
+    
+    font-size: 16px;
+}
+ui-link ui-btn{
+    font-size: 14.5px;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    content:none;
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+.ui-btn-icon-right {
+    padding-right: 1em;
+}
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #f6f6f6;
+    border-color: #ddd /*{a-bar-border}*/;
+   
+}
+.ui-panel {
+    width: 75%;
+
+}
+.ui-panel-inner {
+    padding: 0px;
+}
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+    background-color: #f4f4f4 /*{a-body-background-color}*/;
+    border-color: #ddd /*{a-body-border}*/;
+    color: #333 /*{a-body-color}*/;
+    text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #f3f3f3 /*{a-body-shadow-color}*/;
+    font-size: 12px;
+}
+.ui-content .ui-listview-inset, .ui-panel-inner > .ui-listview-inset {
+    margin: 0; 
+}
+.ui-content .ui-listview-inset, .ui-panel-inner > .ui-listview-inset {
+     margin: 0; 
+}
+.ui-corner-all {
+    -webkit-border-radius: 0px ;
+    border-radius: 0px ;
+}
+.ui-shadow {
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+textarea {
+    resize: none;
+    background: transparent;
+    border: 0 none;
+    outline: none;
+    overflow: hidden;
+}
+.ui-listview>li p.description_list{
+    font-size: 13px; white-space:normal;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;line-height: 13px;     /* fallback */max-height: 78px;      /* fallback */-webkit-line-clamp: 6; /* number of lines to show */-webkit-box-orient: vertical;
+    
+}
+.ui-listview>li p.description_listDetails{
+    font-size: 14px; white-space:normal;
+}
+#footer{
+    position: fixed;
+}
+#header{
+    position: fixed;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #f4f4f4;}
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head+body .ui-btn.ui-btn-a:hover {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+.ui-listview>.ui-li-static, .ui-listview>.ui-li-divider, .ui-listview>li>a.ui-btn {
+    border-style: none;
+}
